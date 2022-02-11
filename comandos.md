@@ -1,4 +1,5 @@
 # Guía de Comandos C/C++ para Circuit Playground
+[Tomás de Camino Beck, Ph.D](https://github.com/tomasdecamino)
 
 ## Código base
 
@@ -17,7 +18,7 @@ void loop(){
 }
 ```
 
-La línea `#include <Adafruit_CircuitPlayground.h>` da acceso a la librería de comandos para el Circuit Playground. Para instalar la librería del CP, seguir [estas instrucciones](https://learn.adafruit.com/circuit-playground-lesson-number-0/circuit-playground-library).  La linea `CircuitPlayground.begin();` inicia el circuit playground.  Todo código para programar el Circuit Playfground tiene este código de base.
+La línea `#include <Adafruit_CircuitPlayground.h>` da acceso a la librería de comandos para el Circuit Playground. Para instalar la librería del CP, seguir [estas instrucciones](https://learn.adafruit.com/circuit-playground-lesson-number-0/circuit-playground-library).  La linea `CircuitPlayground.begin();` inicia el circuit playground.  Todo código para programar el Circuit Playground tiene este código de base.
 
 #Comandos para accesar sensores del CP
 
