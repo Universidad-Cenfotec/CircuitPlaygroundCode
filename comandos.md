@@ -25,7 +25,7 @@ La línea `#include <Adafruit_CircuitPlayground.h>` da acceso a la librería de 
 ## Uso de botones
 
 Las siguientes funciones retornan verdadero `true` si el respectivo botón es presionado
-````
+```
 CircuitPlayground.leftButton()
 CircuitPlayground.rightButton()
 ```
