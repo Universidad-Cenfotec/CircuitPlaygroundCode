@@ -48,5 +48,14 @@ CircuitPlayground.setBrightness(b)
 ``` 
 La función `clearPixels()` apaga todos los neopixeles. Para cambiar los colores de cada neopixel, se utiliza `setPixelColor(n,r,g,b)`, donde `n` es el número de neopixel (de 0 a 9), `r,g,b` corresponden a valores de 0 a 255, de colores RGB.  `setBrightness(b)` cambia la intensidad de los neopixeles (con `b`de 0 a 255).
 
+## Sensor de Luz
+
+El sensor de luz lee la intensidad de luz. 
+```
+CircuitPlayground.lightSensor();
+```
+
+La lectura es un voltaje de 0 a 3.3V, sin embargo la function `lightSensor()` retorna un valor de 10bit (0 a 1023)
+
 
 
