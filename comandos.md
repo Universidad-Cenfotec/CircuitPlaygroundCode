@@ -22,22 +22,23 @@ La línea `#include <Adafruit_CircuitPlayground.h>` da acceso a la librería de 
 
 # Comandos para accesar sensores del CP
 
-## Uso de botones
+## Botones, Switch y NeoPixel
 
+### Botones
 Las siguientes funciones retornan verdadero `true` si el respectivo botón es presionado
 ```
 CircuitPlayground.leftButton()
 CircuitPlayground.rightButton()
 ```
 
-## Slide switch
+### Slide switch
 
 El switch retorna `true` o `false` depediendo si está a la derecha o a la izquierda,
 
 ```
 CircuitPlayground.slideSwitch()
 ```
-## Neopixeles
+### Neopixeles
 
 Para manejar los neopixeles hay varias funciones:
 
@@ -47,6 +48,8 @@ CircuitPlayground.setPixelColor(n,r,g,b)
 CircuitPlayground.setBrightness(b)
 ``` 
 La función `clearPixels()` apaga todos los neopixeles. Para cambiar los colores de cada neopixel, se utiliza `setPixelColor(n,r,g,b)`, donde `n` es el número de neopixel (de 0 a 9), `r,g,b` corresponden a valores de 0 a 255, de colores RGB.  `setBrightness(b)` cambia la intensidad de los neopixeles (con `b`de 0 a 255).
+
+## Sensores
 
 ## Sensor de Luz
 
