@@ -98,13 +98,13 @@ CircuitPlayground.temperatureF()
 ```
 Estas funciones devuelven la temperatura en grados centígrados (con `temperature()`) o en grados Fahrenheight (con `temperatureF()`)
 
-### Sesnpres capacitivos
+### Sensores capacitivos
 
 Cada uno de los pads del CP, son sensopres capacitivos que detectan cuando son tocados. La función:
 ```
 CircuitPlayground.readCap(s);
 ```
-Lee el sensor capacitivo `s` que puede ser 0, 1, 2, 3, 6, 9, 10, o 12, y devuelve `true`si ha sido tocado.
+Lee el sensor capacitivo `s` que puede ser 0, 1, 2, 3, 6, 9, 10, o 12, y devuelve `true` si ha sido tocado.
 
 
 
