@@ -76,7 +76,9 @@ CircuitPlayground.motionX()
 CircuitPlayground.motionY()
 CircuitPlayground.motionZ()
 CircuitPlayground.setAccelRange(range)
-CircuitPlayground.setAccelTap()
+CircuitPlayground.setAccelTap(c, clickthresh)
 CircuitPlayground.getAccelTap()
 ```
-Las funciones `motionX()` devuelve la aceleración como un número de punto flotante (`float`) en m/s2 (para X, Y y Z). La función `setAccelRange(range)` define el rango de aceleración que deseamos detectar (donde `range` puede ser cualquiera de los valores `LIS3DH_RANGE_16_G`, `LIS3DH_RANGE_8_G`, `LIS3DH_RANGE_4_G`, `LIS3DH_RANGE_2_G `)
+Las funciones `motionX()` devuelve la aceleración como un número de punto flotante (`float`) en m/s2 (para X, Y y Z). La función `setAccelRange(range)` define el rango de aceleración que deseamos detectar (donde `range` puede ser cualquiera de los valores `LIS3DH_RANGE_16_G`, `LIS3DH_RANGE_8_G`, `LIS3DH_RANGE_4_G`, `LIS3DH_RANGE_2_G `).
+La función `setAccelTap(c, clickthresh)` enciende la función de tap (detectar un golpe en el CP), donde  `c` puede ser 0 = off, 1 = single tap, 2 = double tap; y `clickthresh`  determina que tan intenso debe ser el golpe (valor de 0 a 255)
+
