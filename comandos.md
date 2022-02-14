@@ -60,5 +60,23 @@ CircuitPlayground.lightSensor();
 
 La lectura es un voltaje de 0 a 3.3V, sin embargo la function `lightSensor()` retorna un valor de 10bit (0 a 1023)
 
+### Micrófono 
 
+El micrófono es un sensor de sonido, que leed una señal sonora, de la siguiente manera,
+```
+CircuitPlayground.soundSensor();
+```
+La función `soundSensor()` devuelve un valor entre 0 y 1023
 
+### Acelerómetro
+
+Este es uno de los sensores más prácticso de esta placa.  Permite medir la aceleración en 3 ejes de la siguiente manera:
+```
+CircuitPlayground.motionX()
+CircuitPlayground.motionY()
+CircuitPlayground.motionZ()
+CircuitPlayground.setAccelRange(range)
+CircuitPlayground.setAccelTap()
+CircuitPlayground.getAccelTap()
+```
+Las funciones `motionX()` devuelve la aceleración como un número de punto flotante (`float`) en m/s2 (para X, Y y Z). La función `setAccelRange(range)` define el rango de aceleración que deseamos detectar (donde range puede ser cualquiera de los valores `LIS3DH_RANGE_16_G, LIS3DH_RANGE_8_G, LIS3DH_RANGE_4_G, LIS3DH_RANGE_2_G `)
