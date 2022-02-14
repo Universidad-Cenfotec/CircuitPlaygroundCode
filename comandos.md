@@ -51,7 +51,7 @@ La función `clearPixels()` apaga todos los neopixeles. Para cambiar los colores
 
 ## Sensores
 
-## Sensor de Luz
+### Sensor de Luz
 
 El sensor de luz lee la intensidad de luz. 
 ```
