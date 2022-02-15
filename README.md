@@ -11,7 +11,7 @@ Códigos que se utiliza en el curso de introducción a las tecnologías de infor
 - ¿Qué es el Circuit Playground? ([video](https://youtu.be/919oLCGz7Pk))
 - Programando en MakeCode ([video](https://youtu.be/IQ_dFPTT0GE))
 - Programando con Arduino IDE([video](https://youtu.be/0VlrpHyZfbg))([código](https://github.com/Universidad-Cenfotec/CircuitPlaygroundCode/blob/main/CP_PrimerCodigo.ino))
-- Comunicación serial y lectura de sensor [video](https://youtu.be/ogFP-dvOLTo)([código](https://github.com/Universidad-Cenfotec/CircuitPlaygroundCode/blob/main/Ejemplo_Serial_SensorLuz.ino))
+- Comunicación serial y lectura de sensor ([video](https://youtu.be/ogFP-dvOLTo))([código](https://github.com/Universidad-Cenfotec/CircuitPlaygroundCode/blob/main/Ejemplo_Serial_SensorLuz.ino))
 
 ## Referencias adicionales
 - Referencia del lenguaje [C/C++ con microcontroladores](https://www.arduino.cc/reference/en/)
