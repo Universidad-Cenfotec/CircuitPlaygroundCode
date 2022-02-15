@@ -15,3 +15,4 @@ Códigos que se utiliza en el curso de introducción a las tecnologías de infor
 
 ## Referencias adicionales
 - Referencia del lenguaje [C/C++ con microcontroladores](https://www.arduino.cc/reference/en/)
+- Instructivos de [programación en C/C++ con arduinos](https://www.instructables.com/Programaci%C3%B3n-C-En-Arduino/)
