@@ -6,7 +6,7 @@
 Al iniciar un código en C/C++ siempre tendremos:
 
 ```
-#include <Adafruit_CircuitPlayground.h>
+#include <Adafruit_Circuit_Playground.h>
 
 void setup() {
   //Inicia el Circuit Playground
