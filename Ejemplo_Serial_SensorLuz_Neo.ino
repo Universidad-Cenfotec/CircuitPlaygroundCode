@@ -2,6 +2,8 @@
 //Curso Introducción a Tecnologías de Información
 // Tomás de Camino Beck
 
+// video https://youtu.be/45QxyBRKQ00
+
 //Carga la librería de Adafruit CP
 #include <Adafruit_Circuit_Playground.h>
 
