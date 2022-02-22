@@ -12,6 +12,7 @@ Códigos que se utiliza en el curso de introducción a las tecnologías de infor
 - Programando en MakeCode ([video](https://youtu.be/IQ_dFPTT0GE))
 - Programando con Arduino IDE([video](https://youtu.be/0VlrpHyZfbg))([código](https://github.com/Universidad-Cenfotec/CircuitPlaygroundCode/blob/main/CP_PrimerCodigo.ino))
 - Comunicación serial y lectura de sensor ([video](https://youtu.be/ogFP-dvOLTo))([código](https://github.com/Universidad-Cenfotec/CircuitPlaygroundCode/blob/main/Ejemplo_Serial_SensorLuz.ino))
+- Un sistema reactivo con el Circuit Playground ([video](https://youtu.be/45QxyBRKQ00))
 
 ## Referencias adicionales
 - Referencia del lenguaje [C/C++ con microcontroladores](https://www.arduino.cc/reference/en/)
